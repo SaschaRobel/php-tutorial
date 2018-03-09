@@ -5,7 +5,7 @@
 <html>
   <body>
     <p> these are just some php tutorials </p>
-  
+    <p> yes, this is the right  </p>     
     <?php
       echo "Hello world <br />";
       if (strpos($_SERVER['HTTP_USER_AGENT'], 'Mozilla') !== FALSE) 
