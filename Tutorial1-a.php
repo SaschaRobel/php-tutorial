@@ -16,3 +16,23 @@ jo
     echo "Nay there";
   }
 ?>
+
+
+<?php 
+    $seite = $_GET["seite"];
+    if(empty($seite))
+    {
+      echo "<a href=\"?seite=tutorial-a\">Zur Indexseite</a><br /> startseite";
+      
+    }else
+    {
+      if($seite == "tutorial-a")
+      {
+        echo "<br />This is the page on which we study for tutorial a";
+
+      }else
+      {
+        echo "I have no idea where we are";
+      } 
+    }   
+?>
